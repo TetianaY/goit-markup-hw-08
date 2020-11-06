@@ -48,11 +48,11 @@ body {
   margin-top: 0px;
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .section-title.centred {
@@ -66,10 +66,19 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
+    padding-top: 0px;
+    width: 450px;
+  }
+  .clients .container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .features .container {
     display: flex;
+  }
+  .clients .section {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -90,12 +99,14 @@ body {
   }
   .work .container {
     display: block;
+    padding-bottom: 0px;
   }
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
   .section-title.centred {
+    padding-top: 0px;
     text-align: center;
   }
   .section.nopadding {

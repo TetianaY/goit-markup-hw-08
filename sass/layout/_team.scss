@@ -51,18 +51,19 @@
     &-list:not(:last-child) {
       margin-bottom: 30px;
     }
-  }
 
-  .section-title {
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: $black;
-    text-align: center;
-    margin: 0;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    .section-title {
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      color: $black-color;
+
+      text-align: center;
+      margin: 0;
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
   }
 
   .social-list {
