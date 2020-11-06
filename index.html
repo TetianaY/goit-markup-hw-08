@@ -153,16 +153,33 @@
 
 
     <!--НАША КОМАНДА-->
-    <!--
-
 
     <section class="section team">
       <div class="container">
         <h2 class="section-title centred">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-list__item">
-            <img class="img" src="./images/studio/our-team/img-1.jpg" alt="Фото Игоря Демьяненко" width="270"
-              height="260" />
+
+            <picture>
+              <source
+                srcset="./images/about-us/about-img-desktop-1.webp 1x, ./images/about-us/about-img-desktop-1@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp">
+              <source
+                srcset="./images/about-us/about-img-desktop-1.jpg 1x, ./images/about-us/about-img-desktop-1@2x.jpg 2x"
+                media="(min-width: 1200px)">
+              <source
+                srcset="./images/about-us/about-img-tablet-1.jpg 1x, ./images/about-us/about-img-tablet-1@2x.jpg 2x"
+                media="(min-width:768px)">
+              <img class="about-list-img" src="./images/about-us/about-img-tablet-1.jpg"
+                alt="мастер намыливает бороду клиенту">
+              <img class="img" src="./images/studio/our-team/img-1.jpg" alt="Фото Игоря Демьяненко" />
+            </picture>
+
+
+
+
+
+
             <div class="name-position">
               <h3 class="name-title">Игорь Демьяненко</h3>
               <p class="position">Product Designer</p>
