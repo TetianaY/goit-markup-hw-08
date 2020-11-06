@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+  font-family: $main-font;
+  /*font-style: normal;*/
+}
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+  }
+  &-title.centred {
+    text-align: center;
+  }
+  &.nopadding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+
+    .features & {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    .page-header &,
+    .features &,
+    .footer & {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    .work & {
+      display: block;
+    }
+  }
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &-title.centred {
+      text-align: center;
+    }
+    &.nopadding {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+// html {
+//   box-sizing: border-box;
+// }
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: inherit;
+// }
+
+// body {
+//   background-color: $primary-background-color;
+//   color: $primary-text-color;
+
+//   font-family: $main-font;
+//   /*font-style: normal;*/
+// }
+
+// .img {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+// }
+
+// .list {
+//   padding: 0;
+//   margin: 0;
+//   list-style: none;
+// }
+
+// .link {
+//   text-decoration: none;
+// }
+
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+
+//   &-title.centred {
+//     text-align: center;
+//   }
+
+//   &.nopadding {
+//     padding-top: 0px;
+//     padding-bottom: 0px;
+//   }
+// }
