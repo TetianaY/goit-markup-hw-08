@@ -408,12 +408,10 @@ body {
 
 .footer {
   background: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  text-align: center;
 }
 
 .footer-subtitle {
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -423,9 +421,10 @@ body {
 }
 
 .footer .container {
-  display: flex;
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo__item {
@@ -465,12 +464,15 @@ body {
 }
 
 .footer-social-list {
+  margin-top: 60px;
   margin-left: 70px;
   margin-right: 93px;
 }
 
 .footer-social-list .social-list {
   display: flex;
+  padding-bottom: 0px;
+  justify-content: center;
 }
 
 .footer-social-list .social-list__svg {
@@ -513,8 +515,8 @@ body {
   fill: #fff;
 }
 
-.sign-news {
-  margin-left: 93px;
+.sign-to-news {
+  margin-top: 60px;
 }
 
 .sign-label {
@@ -541,6 +543,7 @@ body {
 }
 
 .sign-btn {
+  margin-top: 20px;
   display: inline-flex;
   align-items: center;
   padding: 10px 28px;
@@ -563,5 +566,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .features .subtitle {
+    text-align: center;
+  }
+  .features-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
