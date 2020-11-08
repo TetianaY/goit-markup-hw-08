@@ -86,6 +86,11 @@ body {
   .container {
     width: 768px;
   }
+  .clients .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+  }
   .page-header .container,
   .features .container,
   .footer .container {
