@@ -1,27 +1,28 @@
 // utils
-@import "./utils/variables";
+@import './utils/variables';
 
 // base
-@import "./base/common";
-@import "./base/visually-hidden";
+@import './base/common';
+@import './base/visually-hidden';
 
 // components
-@import "./components/modal-btn";
-@import "./components/social-list";
-@import "./components/page-header";
-@import "./components/logo";
-@import "./components/tel-mail";
-@import "./components/subtitle";
-@import "./components/description";
-@import "./components/modal";
-@import "./components/modal-form";
+@import './components/modal-btn';
+@import './components/social-list';
+@import './components/page-header';
+@import './components/logo';
+@import './components/menu';
+@import './components/tel-mail';
+@import './components/subtitle';
+@import './components/description';
+@import './components/modal';
+@import './components/modal-form';
 
 // layouts
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/features";
-@import "./layout/work";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
