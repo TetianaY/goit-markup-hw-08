@@ -36,7 +36,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 
 .section {
@@ -185,10 +184,6 @@ body {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
-}
-
-.page-header {
-  border-bottom: 1px solid #eeeeee;
 }
 
 .logo {
