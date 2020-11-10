@@ -40,13 +40,15 @@
   color: $primary-text-color;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team {
+    padding-bottom: 60px;
     .container & {
       padding-left: 0px;
       padding-right: 0px;
     }
-    padding-bottom: 60px;
+    
+
     &-list__item:not(:last-child) {
       margin-bottom: 30px;
     }
@@ -60,13 +62,8 @@
 
       text-align: center;
       margin: 0;
-      padding-top: 60px;
       padding-bottom: 30px;
     }
-  }
-
-  .social-list {
-    padding-bottom: 24px;
   }
 }
 
