@@ -63,6 +63,19 @@ body {
   padding-bottom: 0px;
 }
 
+@media screen and (max-width: 479px) {
+  .body {
+    min-width: 480px;
+  }
+  .clients .container,
+  .team .container {
+    min-width: 450px;
+  }
+  .page-header .container {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     padding-top: 0px;
@@ -1189,7 +1202,26 @@ body {
   fill: #2196f3;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .clients-list__item {
+    width: calc((100% - 60px) / 2);
+  }
+  .clients-list__item:nth-child(2n) {
+    margin-left: 30px;
+  }
+  .clients-list__item:nth-child(-n + 4) {
+    margin-bottom: 30px;
+  }
+  .clients-list__link {
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients-list {
     display: flex;
     flex-wrap: wrap;

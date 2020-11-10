@@ -63,6 +63,19 @@ body {
   padding-bottom: 0px;
 }
 
+@media screen and (max-width: 479px) {
+  .body {
+    min-width: 480px;
+  }
+  .clients .container,
+  .team .container {
+    min-width: 450px;
+  }
+  .page-header .container {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     padding-top: 0px;

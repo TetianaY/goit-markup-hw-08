@@ -54,6 +54,22 @@ body {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .body {
+    min-width: 480px;
+  }
+
+  .container {
+    .clients &,
+    .team & {
+      min-width: 450px;
+    }
+    .page-header & {
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     .clients & {
