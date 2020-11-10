@@ -71,7 +71,8 @@ body {
   .team .container {
     min-width: 450px;
   }
-  .page-header .container {
+  .page-header .container,
+  .footer .container {
     width: 100%;
   }
 }
@@ -1217,7 +1218,7 @@ body {
     margin-bottom: 30px;
   }
   .clients-list__link {
-    width: 210px;
+    width: 100%;
   }
 }
 

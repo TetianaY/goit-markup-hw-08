@@ -64,7 +64,8 @@ body {
     .team & {
       min-width: 450px;
     }
-    .page-header & {
+    .page-header &,
+    .footer & {
       width: 100%;
     }
   }
