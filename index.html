@@ -129,8 +129,22 @@
         <ul class="work-list list">
           <li class="work-list-item">
             <div class="work-wrapper">
-              <img class="img" src="./images/studio/we-doing/box1.jpg"
-                alt="специалист работает за планшетом и компьютером" />
+
+              <picture>
+
+                <source
+                  srcset="./images/studio/we-doing/box1-desktop.webp 1x, ./images/studio/we-doing/box1-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp">
+                <source
+                  srcset="./images/studio/we-doing/box1-desktop.jpg 1x, ./images/studio/we-doing/box1-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+
+                <img class="img" src="./images/studio/we-doing/box1-desktop.jpg"
+                  alt="специалист работает за планшетом и компьютером" />
+
+              </picture>
+
+
               <div class="work-overlay">
                 <h3 class="subtitle">Десктопные приложения</h3>
               </div>
@@ -138,8 +152,22 @@
           </li>
           <li class="work-list-item">
             <div class="work-wrapper">
-              <img class="img" src="./images/studio/we-doing/box2.jpg"
-                alt="человек держит смартфон и работает за ноутбуком" />
+
+              <picture>
+
+                <source
+                  srcset="./images/studio/we-doing/box2-desktop.webp 1x, ./images/studio/we-doing/box2-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp">
+                <source
+                  srcset="./images/studio/we-doing/box2-desktop.jpg 1x, ./images/studio/we-doing/box2-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+
+                <img class="img" src="./images/studio/we-doing/box2-desktop.jpg"
+                  alt="специалист работает за планшетом и компьютером" />
+
+              </picture>
+
+
               <div class="work-overlay">
                 <h3 class="subtitle">Мобильные приложения</h3>
               </div>
@@ -147,7 +175,21 @@
           </li>
           <li class="work-list-item">
             <div class="work-wrapper">
-              <img class="img" src="./images/studio/we-doing/box3.jpg" alt="кто-то держит планшет с тачпеном" />
+
+              <picture>
+
+                <source
+                  srcset="./images/studio/we-doing/box3-desktop.webp 1x, ./images/studio/we-doing/box3-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp">
+                <source
+                  srcset="./images/studio/we-doing/box3-desktop.jpg 1x, ./images/studio/we-doing/box3-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+
+                <img class="img" src="./images/studio/we-doing/box3-desktop.jpg"
+                  alt="специалист работает за планшетом и компьютером" />
+
+              </picture>
+
               <div class="work-overlay">
                 <h3 class="subtitle">Дизайнерские решения</h3>
               </div>
@@ -626,7 +668,7 @@
 
         <input class="modal-policy-input visually-hidden" type="checkbox" value="accepted-policy" id="modal-policy"
           name="accepted-policy">
-        <label class="modal-policy-field" for="modal-policy">Соглашаюсь с рассылкой и принимаю &#160; 
+        <label class="modal-policy-field" for="modal-policy">Соглашаюсь с рассылкой и принимаю &#160;
           <a href="" class="modal-policy">Условия договора </a>
         </label>
 
