@@ -482,6 +482,7 @@ body {
   }
   .main-nav .contacts {
     display: flex;
+    align-items: center;
     margin-left: auto;
     margin-top: 0px;
   }
