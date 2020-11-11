@@ -67,6 +67,12 @@ body {
   .body {
     min-width: 480px;
   }
+  .hero-bg {
+    min-width: 480px;
+  }
+  .section {
+    min-width: 480px;
+  }
   .clients .container,
   .team .container {
     min-width: 450px;
@@ -81,10 +87,6 @@ body {
   .container {
     padding-top: 0px;
     width: 450px;
-  }
-  .clients .container {
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .features .container {
     display: flex;
@@ -1209,7 +1211,7 @@ body {
     flex-wrap: wrap;
   }
   .clients-list__item {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 30px) / 2);
   }
   .clients-list__item:nth-child(2n) {
     margin-left: 30px;
@@ -1229,7 +1231,7 @@ body {
     align-content: space-around;
   }
   .clients-list__item {
-    width: 210px;
+    width: calc((100% - 30px) / 2);
   }
   .clients-list__item:nth-child(2n) {
     margin-left: 30px;
@@ -1238,7 +1240,7 @@ body {
     margin-bottom: 30px;
   }
   .clients-list__link {
-    width: 210px;
+    width: 100%;
   }
 }
 
@@ -1249,13 +1251,13 @@ body {
     justify-content: space-between;
   }
   .clients-list__item {
-    width: 226px;
+    width: calc((100% - 60px) / 3);
   }
   .clients-list__item:nth-child(-n + 3) {
     margin-bottom: 30px;
   }
   .clients-list__link {
-    width: 226px;
+    width: 100%;
   }
 }
 
@@ -1288,8 +1290,6 @@ body {
 }
 
 .footer .container {
-  padding-left: 0px;
-  padding-right: 0px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1435,6 +1435,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    min-width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-social-list {
     margin-top: 0px;
@@ -1472,8 +1478,6 @@ body {
   .footer .container {
     display: flex;
     padding-top: 0;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .footer .logo__item {
     color: #ffffff;

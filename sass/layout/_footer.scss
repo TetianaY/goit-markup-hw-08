@@ -12,8 +12,6 @@
   }
 
   .container {
-    padding-left: 0px;
-    padding-right: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -158,6 +156,12 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    min-width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
     &-social-list {
@@ -201,8 +205,6 @@
     .container {
       display: flex;
       padding-top: 0;
-      padding-left: 0px;
-      padding-right: 0px;
     }
 
     .logo__item {

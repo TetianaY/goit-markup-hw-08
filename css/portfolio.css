@@ -67,6 +67,12 @@ body {
   .body {
     min-width: 480px;
   }
+  .hero-bg {
+    min-width: 480px;
+  }
+  .section {
+    min-width: 480px;
+  }
   .clients .container,
   .team .container {
     min-width: 450px;
@@ -81,10 +87,6 @@ body {
   .container {
     padding-top: 0px;
     width: 450px;
-  }
-  .clients .container {
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .features .container {
     display: flex;
@@ -630,8 +632,6 @@ body {
 }
 
 .footer .container {
-  padding-left: 0px;
-  padding-right: 0px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -777,6 +777,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    min-width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-social-list {
     margin-top: 0px;
@@ -814,8 +820,6 @@ body {
   .footer .container {
     display: flex;
     padding-top: 0;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .footer .logo__item {
     color: #ffffff;

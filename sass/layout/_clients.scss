@@ -45,7 +45,7 @@
     display: flex;
     flex-wrap: wrap;
     &__item {
-      width: calc((100% - 60px) / 2);
+      width: calc((100% - 30px) / 2);
     }
     &__item:nth-child(2n) {
       margin-left: 30px;
@@ -64,7 +64,7 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .clients-list {
     &__item {
-      width: 210px;
+      width: calc((100% - 30px) / 2);
     }
     &__item:nth-child(2n) {
       margin-left: 30px;
@@ -78,7 +78,7 @@
     }
 
     &__link {
-      width: 210px;
+      width: 100%;
     }
   }
 }
@@ -89,13 +89,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     &__item {
-      width: 226px;
+      width: calc((100% - 60px) / 3);
     }
     &__item:nth-child(-n + 3) {
       margin-bottom: 30px;
     }
     &__link {
-      width: 226px;
+      width: 100%;
     }
   }
 }

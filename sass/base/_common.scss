@@ -59,6 +59,14 @@ body {
     min-width: 480px;
   }
 
+  .hero-bg {
+    min-width: 480px;
+  }
+
+  .section {
+    min-width: 480px;
+  }
+
   .container {
     .clients &,
     .team & {
@@ -73,10 +81,6 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    .clients & {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
     padding-top: 0px;
     width: 450px;
 
